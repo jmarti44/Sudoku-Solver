@@ -15,7 +15,7 @@ Certain Libraries will need to be installed. A note worthy library to install is
 
 
 ### Files
-```Homework I.pdf``` contains the worked out solutions for the homework
+
 
 ```ac3.py``` contains the arc consistency algorithm implementation
 
