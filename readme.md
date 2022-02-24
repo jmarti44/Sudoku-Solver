@@ -4,6 +4,7 @@
    ```python3 Sudoku_solver.py --algorithm both``` to run both algorithms, in cases where the arc consistency algorithm is not the optimal solution 
 3. The user will be shown a series of grids to choose from to run the sudoku solver based on the given terminal arguments. It is recommended to expand the terminal window to see the entire output. The grids shown are taken from the sample test cases given to us.
 4. The program currently will only run with the following options: `Grid 1`, `Grid 2`, `Grid 3`, `Grid 4`, `Grid 5`. `Grid 6`
+5. 
    
 **The program requires the user to compile the program between different test runs**
 
@@ -14,6 +15,8 @@ Certain Libraries will need to be installed. A note worthy library to install is
 
 
 ### Files
+```Homework I.pdf``` contains the worked out solutions for the homework
+
 ```ac3.py``` contains the arc consistency algorithm implementation
 
 
@@ -21,6 +24,11 @@ Certain Libraries will need to be installed. A note worthy library to install is
 
 ```Utility.py``` contains a series of helper functions, which include the CSP Class, and the Sudoku class.
 
+
+
+### References
+The implementation of the CSP class and the associated backtracking and arc consistency helper functions was based on the following github repository.
+https://github.com/aimacode/aima-python/blob/master/csp.py
 
 
 
